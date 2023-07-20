@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: scroll;
+    width: 25rem;
+    height: 70rem;
+    top: 10.5rem;
+    left: 67rem;
+    gap: 1rem;
+}
+
+.video-sidebar {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 13rem;
+    height: 5rem;
+    padding-left: 1rem;
+}
+
+title {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    display: block;
+}
+
+#paragrafo-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    width: 10rem;
+}

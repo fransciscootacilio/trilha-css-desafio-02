@@ -1,0 +1,110 @@
+.area-do-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    width: 952px;
+    height: 746px;
+    gap: 16px;
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+#nome-do-video {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.links-and-likes {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:center;
+
+    width: 902px;
+    height: 42px;
+}
+
+.chanal-dio {
+    display: flex;
+
+    width: 160px;
+    height: 42px;
+    gap: 12px;
+}
+
+p {
+    font-family: Roboto;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #515151;
+    padding-top: .5rem;
+}
+
+#dio {
+    font-family: Roboto;
+    font-weight: 600;
+    color: #000000;
+    font-size: 1rem;
+}
+
+.inscrevase {
+    width: 159px;
+    height: 40px;
+    background: #cc0000;
+    border: 0.1rem solid #cc0000;
+    margin-top: 0.5rem;
+}
+ 
+#buton-insc {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+#icones {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#like-up {
+    display: inline-flex;
+    font-family: Roboto;
+    font-weight: 600;
+    color: #000000;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.info-video {
+    display: flex;
+    width: 391px;
+    height: 16px;
+
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.discricao-video {
+    display: flex;
+    width: 510px;
+    height: 64px;
+    padding-top: 1rem;
+
+    font-family: Roboto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align:initial;
+}
